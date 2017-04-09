@@ -1,0 +1,33 @@
+{
+  "name": "WPT-Test-Coverage",
+  "description": "Gives a rough test coverage based on meta tag",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gregwhitworth/wpt-test-coverage",
+  "author": {
+    "name": "Greg Whitworth"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gregwhitworth/wpt-test-coverage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gregwhitworth/wpt-test-coverage/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gregwhitworth/wpt-test-coverage/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/WPT-Test-Coverage.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0"
+  },
+  "keywords": []
+}

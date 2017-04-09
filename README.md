@@ -1,2 +1,57 @@
-# wpt-test-coverage
-A very basic node module to provide a rough idea of test coverage
+# WPT-Test-Coverage
+
+Gives a rough test coverage based on meta tag
+
+## Getting Started
+### On the server
+Install the module with: `npm install WPT-Test-Coverage`
+
+```javascript
+var WPT_Test_Coverage = require('WPT-Test-Coverage');
+WPT_Test_Coverage.awesome(); // "awesome"
+```
+
+### In the browser
+Download the [production version][min] or the [development version][max].
+
+[min]: https://raw.github.com/gregwhitworth/wpt-test-coverage/master/dist/WPT-Test-Coverage.min.js
+[max]: https://raw.github.com/gregwhitworth/wpt-test-coverage/master/dist/WPT-Test-Coverage.js
+
+In your web page:
+
+```html
+<script src="dist/WPT-Test-Coverage.min.js"></script>
+<script>
+awesome(); // "awesome"
+</script>
+```
+
+In your code, you can attach WPT-Test-Coverage's methods to any object.
+
+```html
+<script>
+var exports = Bocoup.utils;
+</script>
+<script src="dist/WPT-Test-Coverage.min.js"></script>
+<script>
+Bocoup.utils.awesome(); // "awesome"
+</script>
+```
+
+## Documentation
+_(Coming soon)_
+
+## Examples
+_(Coming soon)_
+
+## Contributing
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+
+_Also, please don't edit files in the "dist" subdirectory as they are generated via Grunt. You'll find source code in the "lib" subdirectory!_
+
+## Release History
+_(Nothing yet)_
+
+## License
+Copyright (c) 2017 Greg Whitworth  
+Licensed under the MIT license.
