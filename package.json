@@ -1,5 +1,5 @@
 {
-  "name": "WptTestCoverage",
+  "name": "wptcoverage",
   "description": "Gives a rough test coverage based on meta tag link if provided in test files",
   "version": "1.0.0",
   "homepage": "https://github.com/gregwhitworth/wpt-test-coverage",
