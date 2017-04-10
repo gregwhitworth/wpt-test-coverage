@@ -8,14 +8,14 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     concat: {
       dist: {
-        src: ['lib/<%= pkg.name %>.js'],
-        dest: 'dist/<%= pkg.name %>.js'
+        src: ['wpt-test-coverage.js'],
+        dest: 'dist/wpt-test-coverage.js'
       },
     },
     uglify: {
       dist: {
         src: '<%= concat.dist.dest %>',
-        dest: 'dist/<%= pkg.name %>.min.js'
+        dest: 'dist/wpt-test-coverage.min.js'
       },
     }
   });

@@ -1,5 +1,5 @@
 {
-  "name": "WPT-Test-Coverage",
+  "name": "WptTestCoverage",
   "description": "Gives a rough test coverage based on meta tag link if provided in test files",
   "version": "1.0.0",
   "homepage": "https://github.com/gregwhitworth/wpt-test-coverage",
@@ -19,18 +19,20 @@
       "url": "https://github.com/gregwhitworth/wpt-test-coverage/blob/master/LICENSE"
     }
   ],
-  "main": "lib/WPT-Test-Coverage.js",
+  "main": "lib/wpt-test-coverage.js",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "cheerio": "^0.22.0",
-    "file": "^0.2.2",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-contrib-watch": "~0.4.0",
+    "glob": "^7.1.1",
     "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0"
   },
   "keywords": []
 }
