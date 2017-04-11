@@ -1,7 +1,7 @@
 {
   "name": "wptcoverage",
   "description": "Gives a rough test coverage based on meta tag link if provided in test files",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/gregwhitworth/wpt-test-coverage",
   "author": {
     "name": "Greg Whitworth"
