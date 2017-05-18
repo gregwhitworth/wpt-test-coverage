@@ -15,12 +15,12 @@ CLI commands such as:
     npm install -g wptcoverage
 
 ## Usage
-    wptcoverage -f <file directory>
+    wptcoverage -f <file directory> -t <link to TR version of spec>
 
 ## Contribution/Issues
 
 Feel free to help out or file issues on [Github](https://github.com/gregwhitworth/wpt-test-coverage)
 
 ## License
-Copyright (c) 2017 Greg Whitworth  
+Copyright (c) 2017 Greg Whitworth
 Licensed under the MIT license.
