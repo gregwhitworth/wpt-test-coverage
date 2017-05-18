@@ -19,9 +19,8 @@ CLI commands such as:
 
 ## How does it determine possible anchors
 
-    Specs have numerous anchors & ids within the spec, so this looks at the Table of Comments and
-    retrieves the hashes from them. Then it will diff the spec links to that of the possible
-    hashes in the TOC.
+Specs have numerous anchors & ids within the spec, so this looks at the Table of Comments and
+retrieves the hashes from them. Then it will diff the spec links to that of the possible hashes in the TOC.
 
 ## Contribution/Issues
 
